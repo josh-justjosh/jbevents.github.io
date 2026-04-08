@@ -1079,3 +1079,20 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+/* JB Events branding */
+
+	#header h1.logo {
+		font-size: 0;
+		line-height: 0;
+		letter-spacing: 0;
+	}
+
+		#header h1.logo img {
+			display: block;
+			height: auto;
+			margin: 0 auto;
+			max-width: min(90vw, 520px);
+			width: 100%;
+			filter: invert(1);
+		}
